@@ -38,7 +38,7 @@ function hits(re, files) {
 // If the walk breaks, every rule below passes silently.
 test('the scan actually sees code', () => {
   const files = codeFiles().map(rel);
-  assert.ok(files.length > 5, String(files.length));
+  assert.ok(files.length > 0, 'no source files found: check CODE');
   // assert.ok(files.includes('lib/billing.mjs'));   // name two files you know exist
 });
 

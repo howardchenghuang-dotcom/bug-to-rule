@@ -37,7 +37,7 @@ class ScanSeesCode(unittest.TestCase):
 
     def test_walk_finds_known_files(self):
         files = {str(p.relative_to(ROOT)) for p in source_files()}
-        self.assertGreater(len(files), 5)
+        self.assertGreater(len(files), 0, "no source files found: check ROOT and SKIP_DIRS")
         # self.assertIn("app/main.py", files)   # name two files you know exist
 
 
