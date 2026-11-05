@@ -4,7 +4,7 @@
 
 ### Your AI will write the same bug twice. Make the second time impossible.
 
-![version](https://img.shields.io/badge/version-1.0.1-7c3aed) ![deps](https://img.shields.io/badge/dependencies-none-4a5568) ![license](https://img.shields.io/badge/license-MIT-4a5568)
+![deps](https://img.shields.io/badge/dependencies-none-4a5568) ![license](https://img.shields.io/badge/license-MIT-4a5568)
 
 You fix a bug. A week later the same mistake shows up in a new file, written by you, a teammate or a coding agent. **bug-to-rule** turns each fix into a check, so the next copy fails a test before it can be merged.
 

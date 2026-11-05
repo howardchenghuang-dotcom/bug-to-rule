@@ -4,7 +4,7 @@
 
 ### 你的 AI 会把同一个 bug 写两遍。让第二遍写不出来。
 
-![version](https://img.shields.io/badge/version-1.0.1-7c3aed) ![deps](https://img.shields.io/badge/dependencies-none-4a5568) ![license](https://img.shields.io/badge/license-MIT-4a5568)
+![deps](https://img.shields.io/badge/dependencies-none-4a5568) ![license](https://img.shields.io/badge/license-MIT-4a5568)
 
 > 中文版仅供参考，以英文版为准。
 
